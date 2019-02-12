@@ -27,7 +27,7 @@ check_symantec(){
   fi
 }
 
-##Check if version is last for AIP
+##Check if version is the latest
 check_version(){
   VERSION=$(/opt/Symantec/symantec_antivirus/sav info -p | awk '{print $1}')
   if [[ "$VERSION" == "$LASTVERSION" ]]; then
