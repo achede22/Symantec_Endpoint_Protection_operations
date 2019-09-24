@@ -1,0 +1,16 @@
+
+check_symantec
+check_version
+uninstall_symantec
+install_symantec
+copile_kernel
+checkpostinstall
+set_clienttargetgroup
+check_proper_setup
+configure_symantec
+copyjava
+check_kernel_version
+remove_supplementary_kernel_packages
+install_correctkernel_version
+lockversion
+help
