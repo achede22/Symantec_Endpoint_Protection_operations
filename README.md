@@ -1,5 +1,5 @@
 
-check_symantec
+check_symantec </br>
 check_version
 uninstall_symantec
 install_symantec
